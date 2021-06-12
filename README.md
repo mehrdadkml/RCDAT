@@ -1,2 +1,2 @@
 # RCDAT
-Design crawling program for Optional collection
+Design crawling program for optional collection

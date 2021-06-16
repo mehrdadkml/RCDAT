@@ -1,4 +1,8 @@
 import scrapy
+import newrelic.agent
+
+newrelic.agent.initialize('newrelic.ini')
+
 
 class CoinSpider(scrapy.Spider):
     name="coin"
@@ -9,7 +13,7 @@ class CoinSpider(scrapy.Spider):
         url="https://coinmarketcap.com/all/views/all/"
         yield scrapy.Request(url=url, callback=self.parse)
 
-
+    @newrelic.agent.background_task()
     def parse(self, response, **kwargs):
         for row in response.css("tbody tr"):
             yield{

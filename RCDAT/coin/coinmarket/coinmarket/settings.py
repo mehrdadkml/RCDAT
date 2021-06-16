@@ -47,6 +47,12 @@ ROBOTSTXT_OBEY = True
 #SPIDER_MIDDLEWARES = {
 #    'coinmarket.middlewares.CoinmarketSpiderMiddleware': 543,
 #}
+MYEXT_ENABLED = True
+
+
+EXTENSIONS = {
+    'extensions.newrelic_extension.NewRelic': 500,
+}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html

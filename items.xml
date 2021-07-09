@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items>
+<item><name><value>Bitcoin</value><value>Ethereum</value><value>Tether</value><value>Binance Coin</value><value>Cardano</value><value>Dogecoin</value><value>XRP</value><value>USD Coin</value><value>Polkadot</value><value>Uniswap</value></name><volume><value>$35,776,053,923</value><value>$21,976,006,164</value><value>$57,176,880,742</value><value>$1,562,946,261</value><value>$2,026,015,426</value><value>$1,744,888,635</value><value>$2,485,948,314</value><value>$2,007,064,969</value><value>$1,341,401,787</value><value>$348,693,698</value></volume><marketcap><value>$668,237,105,752</value><value>$254,340,276,814</value><value>$62,619,115,064</value><value>$51,030,808,087</value><value>$44,686,201,732</value><value>$37,670,422,301</value><value>$36,269,135,988</value><value>$24,168,295,193</value><value>$19,673,687,142</value><value>$11,517,075,409</value></marketcap></item>
+</items>
